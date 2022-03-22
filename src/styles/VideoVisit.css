@@ -1,0 +1,64 @@
+/* Video visit */
+.video-visit {
+  background-color: #f6f4ee;
+}
+.video-visit-container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.video-visit-container .image {
+  width: 50%;
+  padding-right: 30px;
+}
+
+.video-visit-container .text {
+  width: 50%;
+  padding-left: 30px;
+}
+
+.video-visit-container .text h3 {
+  font-size: 50px;
+  font-family: "Dosis", sans-serif;
+  margin-bottom: 30px;
+}
+
+.video-visit-container .image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .video-visit-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+    flex-direction: column;
+  }
+
+  .video-visit-container .image {
+    width: 100%;
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .video-visit-container .text {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .video-visit-container .text h3 {
+    font-size: 40px;
+  }
+
+  .video-visit-container .text button {
+    width: 100%;
+  }
+}

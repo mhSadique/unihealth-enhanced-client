@@ -1,0 +1,15 @@
+.doctors-heading {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.doctors-container {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}

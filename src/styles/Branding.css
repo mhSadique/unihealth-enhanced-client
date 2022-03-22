@@ -1,0 +1,57 @@
+.branding {
+  background-image: linear-gradient(#5da2a3, #045889);
+  padding: 100px 0;
+}
+.branding-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  color: white;
+}
+
+.branding-container .text {
+  width: 50%;
+}
+
+.branding-container .text h2 {
+  font-size: 52px;
+}
+
+.branding-container .text .big-para {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.branding-container .text .small-para {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.branding-container .text button {
+  background-color: white;
+  color: #0b5e8b;
+}
+
+.branding-container .image {
+  width: 50%;
+}
+
+.branding-container .image img {
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .branding-container {
+    text-align: center;
+  }
+
+  .branding-container .text {
+    width: 90%;
+  }
+
+  .branding-container .image {
+    display: none;
+  }
+}

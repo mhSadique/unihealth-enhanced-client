@@ -1,0 +1,15 @@
+.appointment-single {
+  flex-basis: 30%;
+  flex-grow: 1;
+  padding: 20px;
+  background-color: whitesmoke;
+  border: 1px solid rgb(185, 177, 177);
+}
+
+.patient {
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+.doctor {
+  line-height: 25px;
+}

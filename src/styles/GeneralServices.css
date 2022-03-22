@@ -1,0 +1,67 @@
+.general-services {
+  padding: 100px 0;
+  background-color: ghostwhite;
+}
+
+.general-services-container {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.general-services h3 {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 40px;
+  font-family: "Dosis", sans-serif;
+  margin-bottom: 30px;
+}
+
+.general-services-container .service {
+  background-color: white;
+  box-shadow: 1px 1px 50px 10px rgba(128, 128, 128, 0.37);
+  border-radius: 10px;
+}
+
+.general-services-container .service img {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.general-services-container .service h4 {
+  font-family: "Dosis", sans-serif;
+  font-size: 35px;
+  margin-bottom: 25px;
+  padding: 0 15px;
+}
+
+.general-services-container .service p {
+  font-size: 20px;
+  margin-bottom: 25px;
+  padding: 0 15px;
+  line-height: 25px;
+}
+
+.general-services-container .service button {
+  background-color: white;
+  color: #2774ae;
+  padding-left: 15px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .general-services-container {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr;
+  }
+
+  .general-services-container .service {
+    text-align: center;
+  }
+}

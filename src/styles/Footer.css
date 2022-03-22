@@ -1,0 +1,122 @@
+footer {
+  background-image: linear-gradient(#00273d, #0b4d74);
+  display: flex;
+  flex-direction: column;
+  padding: 100px 0 50px;
+}
+
+footer .container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+footer p, footer a {
+  color: #f6f4ee;
+}
+
+footer .upper-portion {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 20px;
+}
+
+footer .upper-portion .international .info p {
+  font-size: 21px;
+  margin-bottom: 20px;
+}
+
+footer .upper-portion .international .languages {
+  display: flex;
+  flex-direction: column;
+}
+
+footer .upper-portion .international .languages a {
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+
+footer .upper-portion .patients {
+  display: flex;
+  flex-direction: column;
+}
+
+footer .upper-portion .patients p {
+  font-size: 21px;
+  margin-bottom: 20px;
+}
+
+footer .upper-portion .patients a {
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+
+footer .upper-portion .get-involved {
+  display: flex;
+  flex-direction: column;
+}
+
+footer .upper-portion .get-involved p {
+  font-size: 21px;
+  margin-bottom: 20px;
+}
+
+footer .upper-portion .get-involved a {
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+
+footer .upper-portion .uni-health {
+  display: flex;
+  flex-direction: column;
+}
+
+footer .upper-portion .uni-health p {
+  font-size: 21px;
+  margin-bottom: 20px;
+}
+
+footer .upper-portion .uni-health a {
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+
+footer .lower-portion {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .lower-portion .left a {
+  margin-bottom: 10px;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+footer .lower-portion .right a {
+  margin-bottom: 10px;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+  footer .upper-portion {
+    grid-template-columns: 1fr;
+  }
+
+  footer .upper-portion .international,
+  footer .upper-portion .patients,
+  footer .upper-portion .get-involved {
+    margin-bottom: 30px;
+  }
+
+  footer .lower-portion {
+    flex-direction: column;
+  }
+
+  footer .lower-portion .left {
+    margin-bottom: 20px;
+  }
+
+  footer .lower-portion .right {
+    line-height: 30px;
+  }
+}

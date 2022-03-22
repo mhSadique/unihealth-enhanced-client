@@ -1,0 +1,48 @@
+.doctor-single-container {
+  width: 100%;
+  flex-grow: 1;
+  flex-basis: 30%;
+  background-color: whitesmoke;
+  padding: 10px;
+}
+
+.doctor-single-container img {
+  width: 100%;
+}
+
+.doctor-single-container .doctor-name {
+  font-size: 20px;
+  text-align: center;
+}
+
+.doctor-single-container .doctor-fee {
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.doctor-single-container .doctor-button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 5px;
+  font-size: 18px;
+  padding: 7px 20px;
+  cursor: pointer;
+}
+
+.doctor-single-container .doctor-button-know-more {
+  display: block;
+  margin: 0 auto;
+  margin-top: 5px;
+  font-size: 18px;
+  padding: 7px 20px;
+  cursor: pointer;
+  background-color: rgb(11, 167, 115);
+}
+
+@media screen and (max-width: 867px) {
+  .doctor-single-container {
+    flex-basis: 100%;
+  }
+}

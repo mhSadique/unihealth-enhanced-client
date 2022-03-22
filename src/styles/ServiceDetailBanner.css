@@ -1,0 +1,37 @@
+
+.banner-single {
+    background-image: linear-gradient(#003b5c, #2774ae);
+    color: white;
+    padding: 100px 0;
+  }
+  
+  .banner-single .banner-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .banner-single .banner-container .text-container {
+    width: 60%;
+  }
+  
+  .banner-single .banner-container h2 {
+    font-size: 50px;
+    font-family: "Dosis", sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .banner-single .banner-container p {
+    font-size: 30px;
+    margin-bottom: 20px;
+    line-height: 40px;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .banner-single .banner-container .text-container {
+      width: 100%;
+    }
+  
+    .banner-single .banner-container p {
+      font-size: 25px;
+    }
+  }

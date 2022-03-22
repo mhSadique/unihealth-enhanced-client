@@ -1,0 +1,26 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis&display=swap");
+
+/* Globals */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+button {
+  border: none;
+  padding: 12px 38px;
+  background-color: #014b75;
+  color: white;
+  font-size: 20px;
+  border-radius: 7px;
+  font-weight: bold;
+}
+

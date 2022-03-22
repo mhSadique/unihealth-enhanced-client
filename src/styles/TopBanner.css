@@ -1,0 +1,66 @@
+.top-banner {
+  background-color: #f6f4ee;
+}
+
+.top-banner .top-banner-container {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-banner-container h2 {
+  font-family: "Dosis", sans-serif;
+  font-size: 65px;
+  margin: 50px 0;
+}
+
+.top-banner-container .banner-btn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.top-banner-container .banner-btn button:last-child {
+  background-color: #ffc72c;
+  color: #003b5c;
+}
+
+.top-banner-container .search input {
+  width: 1010px;
+  padding: 30px 30px;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 767px) {
+  .top-banner .top-banner-container {
+    width: 90%;
+  }
+
+  .top-banner-container h2 {
+    font-size: 45px;
+    margin: 20px 0;
+  }
+
+  .top-banner-container .banner-btn {
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .top-banner-container .banner-btn button {
+    margin: 5px;
+  }
+
+  .top-banner-container .search input {
+    width: 300px;
+    padding: 20px 20px;
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,22 @@
+.profile-container {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.profile-container img {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+.profile-container h2 {
+  text-align: center;
+  font-size: 29px;
+}
+.profile-container p {
+  text-align: center;
+}
+.review {
+  background-color: whitesmoke;
+  padding: 20px;
+  margin: 20px;
+}

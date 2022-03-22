@@ -1,0 +1,147 @@
+/* Navbar */
+.nav-container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  padding: 20px 0;
+}
+
+.nav-container .logo {
+  width: 20%;
+  font-size: 45px;
+}
+
+.nav-container .logo .first {
+  color: #003b5c;
+  font-family: "Roboto", sans-serif;
+}
+
+.nav-container .logo .second {
+  color: rgb(85, 139, 4);
+  font-family: "Lobster", cursive;
+}
+
+.nav-container .nav-info {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-container .nav-info .profile-info{
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* .nav-container .nav-link {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 100;
+  text-align: center;
+} */
+
+.nav-container .nav-link a {
+  text-decoration: none;
+  font-size: 25px;
+  margin-right: 20px;
+  color: black;
+}
+
+.nav-container .nav-link a:hover {
+  color: rgba(0, 0, 0, 0.719);
+}
+
+.nav-container .nav-link a:last-child {
+  margin-right: 0;
+}
+
+.nav-container .nav-link a:hover {
+  border-bottom: 1px solid;
+}
+
+.nav-container .profile-info a {
+  text-decoration: none;
+  font-size: 18px;
+  margin-right: 10px;
+  color: black;
+}
+
+.nav-container .profile-info a:hover {
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.719);
+}
+
+.nav-container .profile-info span {
+  font-size: 18px;
+  margin-right: 10px;
+  background-color: #003b5c;
+  color: #fff;
+  padding: 4px 10px 5px;
+  border-radius: 20px;
+}
+
+.nav-container .profile-info img {
+  width: 35px;
+  border-radius: 100px;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-container {
+    flex-direction: column;
+  }
+
+  .nav-container .logo {
+    width: 100%;
+    font-size: 45px;
+    text-align: center;
+  }
+
+  .nav-container .nav-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .nav-container .nav-link a {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+  .nav-container .nav-link a:last-child {
+    margin-bottom: 10px;
+  }
+
+  .nav-container .nav-link {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-container .nav-info .profile-info{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-info .profile-info{
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-container .profile-info a {
+    font-size: 14px;
+  }
+
+  .nav-container .profile-info span {
+    font-size: 14px;
+  }
+
+}

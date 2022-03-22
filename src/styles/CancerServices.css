@@ -1,0 +1,48 @@
+.cancer-services {
+  background-color: #f6f4ee;
+  padding: 80px 0;
+}
+
+.cancer-services h3 {
+  width: 90%;
+  margin: 0 auto;
+  font-family: "Dosis", sans-serif;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.cancer-services-container {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 30px;
+  row-gap: 20px;
+}
+
+.cancer-services-container .service {
+  background-color: white;
+  padding: 30px 20px;
+  border-radius: 5px;
+}
+
+.cancer-services-container .service a {
+  text-decoration: none;
+  font-size: 22px;
+  color: #003b5c;
+}
+
+/* .cancer-services-container .service .service-link {
+  display: flex;
+  justify-content: space-between;
+} */
+
+@media screen and (max-width: 767px) {
+  .cancer-services-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cancer-services-container .service {
+    padding: 15px 10px;
+  }
+}
